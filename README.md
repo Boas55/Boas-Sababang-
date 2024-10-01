@@ -1,2 +1,2 @@
 # Boas-Sababang-
-Saya ingin membuat website sendiri 
+welcome to my channel 
