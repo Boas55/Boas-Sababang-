@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas Sababang</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <!-- Header Section with Login -->
+    <header>
+        <div class="container">
+            <h1 class="logo"style="color: black">BOAS SABABANG</h1>
+            
+            <div class="login">
+                <button onclick="login()">Login</button>
+            </div>
+            <!-- Hamburger Menu -->
+            <div class="menu-btn" onclick="toggleMenu()">
+                <div class="menu-btn__burger"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hamburger Menu Items -->
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="profil.html">profile</a> </li>
+            <li><a href="projek.html">Projects</a></li>
+            <li><a href="skil.html">Skills</a></li>
+            <li><a href="#">Social Media</a></li>
+            <li><a href="index.html">
+            HOME</a></li>
+        </ul>
+    </nav>
+    
+    
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p> Jelajahi karya saya dan hubungi saya melalui tautan media sosial saya!
+          
+        </section>
+        
+    </main>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
